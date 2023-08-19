@@ -1,0 +1,59 @@
+{
+  "name": "vinh-dev",
+  "version": "0.4.2",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "format:check": "prettier --plugin-search-dir=. --check .",
+    "format": "prettier --plugin-search-dir=. --write .",
+    "prepare": "husky install",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^0.19.7",
+    "@astrojs/preact": "^2.2.2",
+    "@astrojs/rss": "^2.4.4",
+    "@astrojs/sitemap": "^2.0.2",
+    "@astrojs/tailwind": "^4.0.0",
+    "@astrojs/vercel": "^3.8.1",
+    "@fontsource-variable/inter": "^5.0.8",
+    "@headlessui/react": "^1.7.16",
+    "@mailchimp/mailchimp_marketing": "^3.0.80",
+    "@tailwindcss/typography": "^0.5.9",
+    "astro": "^2.10.9",
+    "clsx": "^2.0.0",
+    "htm": "^3.1.1",
+    "preact": "^10.17.0",
+    "react": "npm:@preact/compat",
+    "react-dom": "npm:@preact/compat",
+    "rehype-external-links": "^2.1.0",
+    "satori": "^0.10.3",
+    "sharp": "^0.32.5",
+    "swr": "^2.2.1",
+    "tailwindcss": "^3.3.3",
+    "timeago.js": "^4.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.20",
+    "@types/react-dom": "^18.2.7",
+    "@types/sharp": "^0.32.0",
+    "astro-eslint-parser": "^0.14.0",
+    "eslint": "^8.47.0",
+    "eslint-plugin-astro": "^0.28.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.0",
+    "prettier": "^3.0.2",
+    "prettier-plugin-astro": "^0.11.1",
+    "prettier-plugin-tailwindcss": "^0.5.3"
+  },
+  "lint-staged": {
+    "*": [
+      "prettier --plugin-search-dir=. --write"
+    ]
+  }
+}
