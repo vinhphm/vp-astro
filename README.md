@@ -1,4 +1,4 @@
-# My "Astro" Site at [vinh.dev](https://vinh.dev)
+# My old "Astro" Site at [vinh.dev](https://vinh.dev)
 
 ## Tech stack
 
